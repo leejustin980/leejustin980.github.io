@@ -1,0 +1,93 @@
+#header {
+	text-align: center;
+}
+
+#about-me {
+	text-align: center;
+}
+
+#info {
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+}
+
+#projects {
+	text-align: center;
+}
+
+#github {
+	text-align: center;
+	display: inline-block;
+}
+
+/* Outer Row + Columns */
+.col {
+	float:left;
+	width:33.33%;
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.row {
+	display:inline-block;
+	text-align: center;
+}
+
+/* Projects Row + columns */
+.inner_column {
+	float: left;
+	width: 33.33%;
+}
+
+.inner_row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.inner_row {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+
+img {
+	height: 100px;
+}
+
+.caption {
+	display: block;
+}
+
+#contact-me {
+	text-align: center;
+}
+
+#resume {
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

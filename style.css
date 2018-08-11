@@ -1,0 +1,57 @@
+html h1, h2, p{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.title {
+	text-align: center;
+}
+
+.row {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.jumbotron {
+	padding:150px;
+	text-align: center;
+	background-color: darkgrey;
+}
+
+#contact-me .glyphicon{
+	font-size: 40px;
+}
+
+.navbar .glyphicon {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.carousel-inner > .item >img {
+	width: 100%;
+	max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
