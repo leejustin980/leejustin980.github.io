@@ -1,5 +1,9 @@
-#header {
+
+.about_col {
+	position: fixed;
 	text-align: center;
+	float: left;
+	width: 33.33%;
 }
 
 #about-me {
@@ -7,13 +11,15 @@
 }
 
 #info {
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 	text-align: center;
 }
 
 #projects {
+	padding-left: 55%;
 	text-align: center;
+	font-size: 30px;
 }
 
 #github {
@@ -24,7 +30,28 @@
 /* Outer Row + Columns */
 .col {
 	float:left;
-	width:33.33%;
+	width:100%;
+	padding-left: 5%;
+}
+
+
+
+.main:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.main {
+	display:inline-block;
+	text-align: center;
+	padding-left:33.33%;
+}
+
+/* Projects Row + columns */
+.row img {
+	float: left;
+	padding-left: 20px;
 }
 
 .row:after {
@@ -34,25 +61,7 @@
 }
 
 .row {
-	display:inline-block;
-	text-align: center;
-}
-
-/* Projects Row + columns */
-.inner_column {
-	float: left;
-	width: 33.33%;
-}
-
-.inner_row:after {
-	content:"";
-	display: table;
-	clear: both;
-}
-
-.inner_row {
-	vertical-align: top;
-	display: inline-block;
+	min-width: 150%;
 	text-align: center;
 }
 
@@ -60,12 +69,8 @@ img {
 	height: 100px;
 }
 
-.caption {
-	display: block;
-}
-
-#contact-me {
-	text-align: center;
+.description {
+	
 }
 
 #resume {
