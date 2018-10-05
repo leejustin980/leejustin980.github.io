@@ -1,74 +1,79 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title> Justin Lee </title>
 		
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<!-- p5/JavaScript -->
-		<script src="p5/p5.min.js"></script>
-    	<script src="p5/addons/p5.dom.min.js"></script>
-    	<script src="p5/addons/p5.sound.min.js"></script>
-		<script src="sketch.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
 	</head>
-
 	<body>
-		<div class="about_col">
+		<div class="navbar">
+			<ul>
+				<a href="#intro"><li> Introduction </li></a>
+				<a href="#projects"><li> Projects </li></a>
+				<a href="#contact"><li> Contact </li></a>
+			</ul>
+		</div>
+		
+		<div id="title">
+			<img src="images/profile.jpg">
 			<h1> Justin Lee </h1>
+		</div>
 
-			<!-- Resume -->
-			<div id="resume">
-				<a href="resume.pdf"><h2> Resume </h2></a>
-			</div>
-			<br>
+		<div id="intro">
+			<h2> Introduction </h2>
+			<p>Hi I'm Justin.</p>
+			<p>I'm currently living in New York, but I'm originally from California and I'm just beginning to explore programming and how I can program in my daily life. I hope to use my skills in a professional environment where I can learn to do more things related to coding!</p>
+			<p> Currently, I am searching for an internship that will give me the experience I need to get more indepth knowledge in the field.</p>
+			<div id="resume"><a href="resume.pdf"> Resume </a></div>
+		</div>
+		<br>
+		<br>
 
-			<!-- Github -->
-			<div id="github">
-				<a href="https://github.com/leejustin980"><h2> Github </h2></a>
+		<div id="projects">
+			<h2> Projects </h2>
+			<div class="row">
+				<div class="col" id="break-out">
+					<a href="http://i6.cims.nyu.edu/~jhl805/Interactive/homework2/game.html"><img src="images/break-out.png"></a>
+					<p> Break-Out Game </p>
+				</div>
+				<div class="col" id="league">
+					<a href="https://github.com/leejustin980/ItemBuilder"><img src="images/league.png"></a>
+					<p> League of Legends Item Set Builder </p>
+				</div>
+				<div class="col" id="coming_soon">
+					<a href="#"><img src="images/comingsoon.jpg"></a>
+					<p> Coming Soon... </p>
+				</div>
+			</div> <!-- end of row -->
+		</div>
+		<br>
+		
+		<div class="contact_row">
+			<div class="contact_col">
+				<div id="github">
+					<a href="https://github.com/leejustin980"><h2> Github </h2></a>
+					<a href="https://github.com/leejustin980"><img src="images/github.jpg"></a>
+				</div>
 			</div>
 			
-			<!-- About Me -->
-			<div id="about-me">
-				<h2> About Me </h2>
-				<div id="info">
-					<p> I'm from Rancho Palos Verdes, a small city in Southern California. I'm just beginning to explore programming and how I can program in my daily life. I hope to use my skills in a professional environment where I can learn to do more things related to coding! </p>
-					<p> Currently, I am searching for an internship that will give me the experience I need to get more indepth knowledge in the field. </p>
+			<div class="contact_col">
+				<div id="contact">
+					<a href="contact.html"><h2> Contact Me </h2></a>
+					<a href="contact.html"><img src="images/email.png"></a>
 				</div>
-			</div> <!-- end of about me -->
-		</div> <!-- end of about column -->
-		
-		<div class="main">
-			<div class="col">
+			</div>
+		</div> <!-- end of contact row -->
 
-				<!-- Projects -->
-				<div id="projects">
-					<h2> Projects </h2>
-				</div>
-				<div class="row">
-					<!-- Brick Breaker Project -->
-					<a href="http://i6.cims.nyu.edu/~jhl805/Interactive/homework2/game.html"><img src="images/break-out.png"></a>
-					<span class="description"><p> Javascript program that allows the user to play break-out!</p></span>
-				</div>
-					
-				<!-- Cappuccinos Project -->
-				<div class="row">
-					<a href="https://leejustin980.github.io/Cappuccinos/"><img src="images/logo.jpg"></a>
-					<span class="description"><p> Website for Cappuccino's Moose's Juices </p></span>
-				</div>
-				
-				<!-- League of Legends Item Set Builder -->
-				<div class="row">
-					<a href="https://github.com/leejustin980/ItemBuilder"><img src="images/leagueLogo.jpg"></a>
-					<div class="description"><p> League of Legends Item Set Builder </p></div>
-				</div>
+		<!-- Footer -->
+		<hr>
+		<footer>
+			<h6> Justin Lee </h6>
+		</footer>
 
-				<!-- Other Projects -->
-				<div class="row">
-					<img src="images/comingsoon.jpg">
-					<span class="description"><p> Other Projects (In Progress) </p></span>
-				</div>
-
-			</div> <!-- end of projects column -->
-		</div><!-- end of row -->
 	</body>
 </html>
