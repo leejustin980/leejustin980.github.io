@@ -174,11 +174,15 @@ p {
 	height:150px;
 	width:150px;
 }
+#whack img{
+	height:150px;
+	width:150px;
+}
 .row {
 	width: 100%;
 }
 .col {
-	width:33.33%;
+	width:25%;
 	float:left;
 }
 
