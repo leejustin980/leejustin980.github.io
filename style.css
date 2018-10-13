@@ -211,6 +211,15 @@ p {
 	float:left;
 }
 
+/* contact page */
+#contact_form {
+	background-color: rgba(146,181,205,0.6);
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+
 /* footer */
 footer {
 	height:20%;
