@@ -170,7 +170,11 @@ p {
 	border-style: solid;
 	border-width: 3px;
 }
-#league img{
+/*#league img{
+	height:150px;
+	width:150px;
+}*/
+#weather img {
 	height:150px;
 	width:150px;
 }
